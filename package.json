@@ -1,0 +1,26 @@
+{
+  "name": "granadaTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "0.28.7",
+    "file-loader": "1.1.5",
+    "style-loader": "0.19.0",
+    "url-loader": "0.6.2"
+  },
+  "dependencies": {
+    "next": "6.1.1",
+    "next-routes": "1.4.2",
+    "react": "16.4.2",
+    "react-dom": "16.4.2"
+  }
+}
